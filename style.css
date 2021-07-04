@@ -1,0 +1,70 @@
+
+
+/* Difult css */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 90%;
+}
+
+/* body Font Family  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*  headar main css */
+
+.first-headar{
+    background-image: url(background-photo/top-banner.png);
+    background-repeat: no-repeat;
+}
+.main-head{
+    display: flex;
+}
+
+/* Headar Left css */
+
+.headar-left{
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.headar-left h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.headar-left h2{
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+.headar-left h2 span{
+    color: orange
+}
+.headar-left h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.headar-left p{
+text-align: justify;
+margin-bottom: 20px;
+}
+.headar-left a{
+    background:linear-gradient( orange, rgb(241, 206, 91));
+    color: #fff;
+    padding: 5px 45px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+
+/* Headar Right Css */
+.headar-right{
+    width: 45%;
+    margin-left: 5%;
+}
+.headar-right img{}
+
